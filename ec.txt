@@ -1,0 +1,26 @@
+public class Book {
+    private String title;
+    private String author;
+    private int year;
+
+    // Default constructor
+    public Book() {
+        title = "Unknown";
+        author = "Unknown";
+        year = 0;
+    }
+
+    // Constructor with title and author
+    public Book(String title, String author) {
+        this.title = title;
+        this.author = author;
+        this.year = 0;
+    }
+
+    // Constructor with all fields
+    public Book(String title, String author, int year) {
+        this.title = title;
+        this.author = author;
+        this.year = year;
+    }
+}
